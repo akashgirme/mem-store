@@ -1,0 +1,21 @@
+{
+  "name": "redis-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/redis-parser": "^3.0.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "redis-parser": "^3.0.0"
+  }
+}
